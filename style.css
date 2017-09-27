@@ -33,24 +33,26 @@ header nav {
 
 .content {
   display: flex;
+
 }
 
-.column .large {
+.column.large {
   display: flex;
+  flex-wrap: wrap;
   width: 630px;
-  height: auto;
-  border: 10px solid black;
+  border: 1px solid black;
 
 }
-.column .medium {
+
+.column.medium {
   display: flex;
+  flex-wrap: wrap;
   width: 300px;
-  height: auto;
-  border: 10px solid black;
+  border: 1px solid black;
 }
-.column .small {
+.column.small {
   display: flex;
+  flex-wrap: wrap;
   width: 240px;
-  height: auto;
-  border: 10px solid black;
+  border: 1px solid black;
 }
