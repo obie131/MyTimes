@@ -23,6 +23,7 @@ header {
 
 .logo span {
   padding-left: 10px;
+  border: 1px solid black;
 }
 
 header nav {
@@ -34,13 +35,6 @@ header nav {
 
 /* main content */
 
-p{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-
 
 
 
@@ -50,6 +44,7 @@ p{
 
 .column.large {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 630px;
   border: 1px solid black;
@@ -73,20 +68,29 @@ p{
   flex-direction: column;
   justify-content: center;
   height: 300px;
+  border: 1px solid black;
 }
 .image-content span{
+
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  border: 1px solid black;
 }
+
+
 
 .lead-story .image-content{
+
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
-
-
-
-.narrative {
+span{
+  border: 1px solid black;
+}
+.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid black;
 }
