@@ -20,7 +20,8 @@ header {
   padding: 30px;
   color: MediumAquamarine;
 }
-.logo span{
+
+.logo span {
   padding-left: 10px;
 }
 
@@ -29,7 +30,18 @@ header nav {
   justify-content: space-between;
   padding-right: 40px;
 }
+
+
 /* main content */
+
+.cat{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
 
 .content {
   display: flex;
@@ -40,7 +52,6 @@ header nav {
   flex-wrap: wrap;
   width: 630px;
   border: 1px solid black;
-
 }
 
 .column.medium {
@@ -49,6 +60,7 @@ header nav {
   width: 300px;
   border: 1px solid black;
 }
+
 .column.small {
   display: flex;
   flex-wrap: wrap;
@@ -56,14 +68,27 @@ header nav {
   border: 1px solid black;
 }
 
-.mainstory{
+
+.mainstory {
+  border: 1px solid black;
+
+}
+.mom{
+  display: block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-size: contain;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: left;
+
+}
+
+.secondstory {
   border: 1px solid black;
 }
 
-.secondstory{
-  border: 1px solid black;
-}
-
-.storycontent{
+.storycontent {
   border: 1px solid black;
 }
