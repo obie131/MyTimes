@@ -3,7 +3,6 @@
 header {
   display: flex;
   align-items: center;
-  position: fixed;
   z-index: 1;
   width: 100%;
   height: 80px;
@@ -21,9 +20,37 @@ header {
   padding: 30px;
   color: MediumAquamarine;
 }
+.logo span{
+  padding-left: 10px;
+}
 
 header nav {
   display: inline-block;
   justify-content: space-between;
   padding-right: 40px;
+}
+/* main content */
+
+.content {
+  display: flex;
+}
+
+.column .large {
+  display: flex;
+  width: 630px;
+  height: auto;
+  border: 10px solid black;
+
+}
+.column .medium {
+  display: flex;
+  width: 300px;
+  height: auto;
+  border: 10px solid black;
+}
+.column .small {
+  display: flex;
+  width: 240px;
+  height: auto;
+  border: 10px solid black;
 }
