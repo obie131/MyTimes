@@ -23,7 +23,6 @@ header {
 
 .logo span {
   padding-left: 10px;
-  border: 1px solid black;
 }
 
 header nav {
@@ -35,29 +34,31 @@ header nav {
 
 /* main content */
 
-
-
-
 .content {
   display: flex;
+  justify-content: space-between;
+
 }
 
 .column.large {
   display: flex;
+  flex-direction: column;
   flex: 2;
-
-  align-items: flex-start;
-  flex-wrap: wrap;
   width: 630px;
-  border: 1px solid black;
+  justify-content: space-between;
+  padding: 40px;
+
+
 }
 
 .column.medium {
   display: flex;
-  flex:1;
+  flex: 1;
   flex-wrap: wrap;
   width: 300px;
-  border: 1px solid black;
+  justify-content: space-between;
+  padding: 40px;
+
 }
 
 .column.small {
@@ -65,52 +66,63 @@ header nav {
   flex: 1;
   flex-wrap: wrap;
   width: 240px;
-  border: 1px solid black;
+  justify-content: space-between;
+  padding: 40px;
 }
-.image-content{
-  display:flex;
+
+.image-content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 300px;
-  border: 1px solid black;
 }
-.image-content span{
 
+.image-content span {
+  display: flex;
+  align-items: flex-start;
+  text-align:center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  border: 1px solid black;
 }
 
-.earth-spins{
-  display:flex;
+.earth-spins {
+  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
 
-.catcontrol{
-background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-
+.catcontrol {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 }
 
-.camera{
+.camera {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 }
 
-
-.lead-story .image-content{
-
+.lead-story .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
 
-span{
-  border: 1px solid black;
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+}
+span {
   height: 300px;
 }
-.narrative{
+.narrative {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  border: 1px solid black;
 }
