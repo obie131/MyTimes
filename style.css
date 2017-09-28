@@ -44,7 +44,9 @@ header nav {
 
 .column.large {
   display: flex;
-  justify-content: center;
+  flex: 2;
+
+  align-items: flex-start;
   flex-wrap: wrap;
   width: 630px;
   border: 1px solid black;
@@ -52,6 +54,7 @@ header nav {
 
 .column.medium {
   display: flex;
+  flex:1;
   flex-wrap: wrap;
   width: 300px;
   border: 1px solid black;
@@ -59,6 +62,7 @@ header nav {
 
 .column.small {
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
   width: 240px;
   border: 1px solid black;
@@ -79,14 +83,30 @@ header nav {
   border: 1px solid black;
 }
 
+.earth-spins{
+  display:flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.catcontrol{
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+
+}
+
+.camera{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
 
 
 .lead-story .image-content{
 
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
+
+
 span{
   border: 1px solid black;
+  height: 300px;
 }
 .narrative{
   font-family: Georgia;
