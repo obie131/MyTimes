@@ -120,14 +120,18 @@ a{
 .stories {
   display: flex;
   justify-content: space-between;
-  margin-top: 17px;
+
 }
 
 .story {
   display: flex;
   flex-direction: column;
   width: 300px;
-  padding: 10px;
+  padding-left: 10px;
+}
+
+.stories .text-content{
+  height: 250px;
 }
 
 
